@@ -15,8 +15,7 @@ document.addEventListener("DOMContentLoaded", function() {
   });
   
   buttonCopyText.addEventListener("click", function () {   
-    if (!formattedOutput) return; 
-    console.log(formattedOutput)    
+    if (!formattedOutput) return;     
     navigator.clipboard.writeText(formattedOutput);
     alert("Título Copiado");
   });
